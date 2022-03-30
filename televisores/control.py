@@ -19,16 +19,12 @@ class Control:
     
     def volumeDown(self):
         self._tv.volumeDown()
-    
     def setCanal(self,canal):
         self._tv.setCanal(canal)
-    
     def enlazar(self,tv):
         self._tv=tv
         self._tv.setControl(self)
-    
     def setTv(self,tv):
         self._tv=tv
-    
     def getTv(self):
         return self.
